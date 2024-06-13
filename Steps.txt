@@ -1,53 +1,53 @@
 
 
-Steps for Extracting  Coordinates of Squares
+## Steps for Extracting  Coordinates of Squares
 
-0) Read Image : image
+Board-Square-Extraction.ipynb
 
-1) Convert Image to Gray   : gray_image
+1) Read Image 
 
-2) Apply GaussianBlur      : gaussian_blur
+2) Convert Image to Gray Scale
 
-3) Apply OTSU Threshold    : otsu_binary
+3) Apply Gaussian Blur Filter       
 
-4) Canny Edge Detection    : canny
+4) Apply OTSU Threshold   
+
+5) Apply  Canny Edge Detection    
  
+6) Apply Dilation      
 
-5) Dilation     : img_dilation1
+7) Apply  Hough Lines    
 
-6) Hough Lines   : hlines
+8) Apply Dilation  
 
-7) Dilation    : img_dilation_second
+9) Find and Filter Contours  
 
-8) Find & Filter Contours  and Draw   : board_squared1
+10) Sort Coordinates
 
-9) Sort Coordinates
+11) Fill undetected Squares
 
-10) Fill undetected Squares
-
-11) Validate Squares
-
-12) Result   : result
+12) Validate Squares
 
 13) Write Coordinates to CSV
 
 14 ) Test CVS image
 
 
-----------------------
+----------------------------------------
 
+Piece-Extraction.ipynb
 
-16) Detect Pieces  --> detection resmi 
+15) Detect Pieces  
 
-17) Extract detected Pieces Coordinates 
+16) Extract detected Pieces Coordinates 
 
-18 ) Map extracted coordinates with board coordinates which extracted in step "13"
+17 ) Map extracted coordinates with board coordinates(step 13)
 
-19 ) Create String that represents game
+18 ) Create String that represents game
 
-20 ) Convert string to Classic CHESS Format 
+29 ) Convert string to Classic CHESS Format 
 
-21 ) Display Result     --> normal satranc png resmi 
+21 ) Display Result     
 
 
 
