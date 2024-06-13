@@ -1,0 +1,36 @@
+{
+    "model": {
+        "xml": "last.xml",
+        "bin": "last.bin"
+    },
+    "nn_config": {
+        "output_format": "detection",
+        "NN_family": "YOLO",
+        "input_size": "640x640",
+        "NN_specific_metadata": {
+            "classes": 12,
+            "coordinates": 4,
+            "anchors": [],
+            "anchor_masks": {},
+            "iou_threshold": 0.5,
+            "confidence_threshold": 0.5
+        }
+    },
+    "mappings": {
+        "labels": [
+            "Class_0",
+            "Class_1",
+            "Class_2",
+            "Class_3",
+            "Class_4",
+            "Class_5",
+            "Class_6",
+            "Class_7",
+            "Class_8",
+            "Class_9",
+            "Class_10",
+            "Class_11"
+        ]
+    },
+    "version": 1
+}
