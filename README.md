@@ -10,7 +10,7 @@ Most Used Libraries : OpenCV, Depthai , Numpy , Pandas , Chess , matplotlib
  
 
  <p align="center">
-<img src="https://github.com/siromermer/Dynamic-Chess-Board-Piece-Extraction/assets/113242649/200cffa0-fa19-49fa-892b-dca6b4914e89" alt="Image 5" width="300" style="display: inline-block; ">
+<img src="https://github.com/siromermer/Dynamic-Chess-Board-Piece-Extraction/assets/113242649/200cffa0-fa19-49fa-892b-dca6b4914e89" alt="Image 5" width="350" style="display: inline-block; ">
 </p>
  
 
