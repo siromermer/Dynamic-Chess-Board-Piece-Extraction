@@ -3,17 +3,26 @@
 
 ## Dynamic Chess Board-Pieces Extraction
 
-* Extracting of Chess Board and Pieces to Classic Chess Format (lichess.com, chess.com) in Real Life Using a Camera
-* I used OAK-D Lite as a Camera
 
-Most Used Libraries : OpenCV, Depthai , Numpy , Pandas , Chess , matplotlib 
+
+* Extracting of Chess Board and Pieces to Classic Chess Format (lichess.com, chess.com)
+* --> with image or with camera(real-time extraction)
+* There is 2 version of this project
+1) Extract chess board and and pieces with normal image(.jpeg,.png ...) ( Make inference with Ultralytics)
+2) Extract chess board and and pieces with OAK-D Lite Camera (using depthai for real-time video and inferencing) ( not updated)
+
+
+--> OpenCV , Ultralytics ,YOLO , Numpy , Pandas , chess , matplotlib  , Depthai
  
 
- <p align="center">
+<p align="center">
 <img src="https://github.com/siromermer/Dynamic-Chess-Board-Piece-Extraction/assets/113242649/200cffa0-fa19-49fa-892b-dca6b4914e89" alt="Image 5" width="350" style="display: inline-block; ">
 </p>
- 
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/fa2f9c74-87de-4449-9c22-2311b6729355" alt="Image 5" width="350" style="display: inline-block; ">
+</p>
+ 
 
 
 ### FILES & FOLDERS
