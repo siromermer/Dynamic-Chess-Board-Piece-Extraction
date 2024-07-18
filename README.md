@@ -6,42 +6,44 @@
 
 
 * Extracting of Chess Board and Pieces to Classic Chess Format (lichess.com, chess.com)
-* --> with image or with camera(real-time extraction)
-* There is 2 version of this project
+* There is 2 version of this project --> with image or with camera(real-time extraction)
 1) Extract chess board and and pieces with normal image(.jpeg,.png ...) ( Make inference with Ultralytics)
 2) Extract chess board and and pieces with OAK-D Lite Camera (using depthai for real-time video and inferencing) ( not updated)
 
 
 --> OpenCV , Ultralytics ,YOLO , Numpy , Pandas , chess , matplotlib  , Depthai
  
-
+<br>
 <p align="center">
 <img src="https://github.com/siromermer/Dynamic-Chess-Board-Piece-Extraction/assets/113242649/200cffa0-fa19-49fa-892b-dca6b4914e89" alt="Image 5" width="350" style="display: inline-block; ">
 </p>
-
+<br>
+<br>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/fa2f9c74-87de-4449-9c22-2311b6729355" alt="Image 5" width="350" style="display: inline-block; ">
+<img src="https://github.com/user-attachments/assets/109289d6-49d7-48d5-87eb-9c62ffa7aed9" alt="Image 5" height="350" style="display: inline-block; ">
 </p>
- 
+
+
 
 
 ### FILES & FOLDERS
-* Steps.txt ----> If you want to see all the steps( image processing , camera calibration , board square extracting, piece prediction , mapping coordinates ) ,you can check
-* Board-Square-Extraction.ipynb ---> Extraction of Square Positions
-* Piece-Extraction.ipynb ----> Extraction of Pieces and their squares , and obtaining classical Chess Format Image (lichess,chess.com)
-* Blob-Model -----> It contains converted Yolov8 chess model  
-
+* main.py --> All the process in one step ( Board extraction , piece prediction and conversion of board to 2D chess format
+* step-by-step.ipynb --> It is nearly same with main.py , but it explain all the steps in notebook . I highly recommend to read this notebook, if you want to see all process with images and explanations
+* extracted-data --> It contains result (converted image), and all the information (coordinates,board ..)
+* test-images --> images for testing
+* chess-model-yolov8m.pt --> trained Yolov8 model for inferencing
+* example-results --> You can see different images and results
+  
+* Dephtai-chess (Folder) --> It contains real-life camera version with depthai library , It is not updated but it can still be used. I have different and better algorithms but this depthai version is not using them , it is old . I will update it
+(I dont recommend to use, not updated)
 <br>
+<br><br>
 
-### Below , I explained all the steps in sequence of images ---> all the steps : check Steps.txt file
+### Example Images 
+<br><br>
 
-<br>
-
-<p align="center">
-  <img src="https://github.com/siromermer/Dynamic-Chess-Board-Piece-Extraction/assets/113242649/0e54a33c-b7e9-4eaa-8a5a-8041e529e54f" alt="Image 1" width="500" style="display: inline-block; margin-right: 10px;">
-  <img src="https://github.com/siromermer/Dynamic-Chess-Board-Piece-Extraction/assets/113242649/da070ed8-979a-436d-a0cb-de6755b4b4d4" alt="Image 2" width="500" style="display: inline-block; margin-right: 10px;">
-  <img src="https://github.com/siromermer/Dynamic-Chess-Board-Piece-Extraction/assets/113242649/2f7e52f1-ad8c-42d0-a5b4-3a768c6f435b" alt="Image 3" width="500" style="display: inline-block; padding-top: 20px; padding-bottom: 20px; margin-right: 10px;">
-  <img src="https://github.com/siromermer/Dynamic-Chess-Board-Piece-Extraction/assets/113242649/ec66ecab-f30c-41f8-b543-4080facddd9c" alt="Image 5" width="500" style="display: inline-block; padding-top: 20px; padding-bottom: 20px;">
-</p>
+![sample7](https://github.com/user-attachments/assets/7a20e12c-e686-42b3-90a6-66865601bf0a)
+<br><br><br><br>
+![sample5](https://github.com/user-attachments/assets/4043c07d-6b24-4419-9cca-d9448595e8eb)
 
  
