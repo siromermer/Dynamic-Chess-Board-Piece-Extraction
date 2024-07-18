@@ -6,6 +6,7 @@
 
 
 * Extracting of Chess Board and Pieces to Classic Chess Format (lichess.com, chess.com)
+* Different chess boards , different pieces can be used ( check below of the page )
 * There is 2 version of this project --> with image or with camera(real-time extraction)
 1) Extract chess board and and pieces with normal image(.jpeg,.png ...) ( Make inference with Ultralytics)
 2) Extract chess board and and pieces with OAK-D Lite Camera (using depthai for real-time video and inferencing) ( not updated)
