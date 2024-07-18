@@ -36,14 +36,17 @@
   
 * Dephtai-chess (Folder) --> It contains real-life camera version with depthai library , It is not updated but it can still be used. I have different and better algorithms but this depthai version is not using them , it is old . I will update it
 (I dont recommend to use, not updated)
-<br>
+<br><br>
+
+VERY IMPORTANT: I didn't train the model enough because the first phase of this project was extracting the board and pieces dynamically with changing positions and different boards. As a result, the model cannot predict all the pieces correctly, but the positions are nearly perfect. You can train better models and use them with this code. In the future, I will train better models.
 <br><br>
 
 ### Example Images 
-<br><br>
+for more example, check  example-results folder
+<br><br> 
 
-![sample7](https://github.com/user-attachments/assets/7a20e12c-e686-42b3-90a6-66865601bf0a)
+![sample7](https://github.com/user-attachments/assets/f6659085-cd22-448a-9429-96fa23842f84)
 <br><br><br><br>
-![sample5](https://github.com/user-attachments/assets/4043c07d-6b24-4419-9cca-d9448595e8eb)
+![sample5](https://github.com/user-attachments/assets/325fdd0d-337c-46f2-87d7-a6641b594aaf)
 
  
