@@ -28,8 +28,6 @@
 
 
 ### FILES & FOLDERS
-* main.py --> All the process in one step ( Board extraction , piece prediction and conversion of board to 2D chess format
-* step-by-step.ipynb --> It is nearly same with main.py , but it explain all the steps in notebook . I highly recommend to read this notebook, if you want to see all process with images and explanations
 * extracted-data --> It contains result (converted image), and all the information (coordinates,board ..)
 * test-images --> images for testing
 * chess-model-yolov8m.pt --> trained Yolov8 model for inferencing
