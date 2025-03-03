@@ -39,6 +39,17 @@ Most used Libraries: OpenCV, Numpy, Pandas, chess, matplotlib, Depthai , Ultraly
 There are two files for converting images to FEN format: the first uses a square-filling algorithm, and the second uses perspective transformation. <br>
 * The square-filling algorithm works better with non-angled (straight) images. <br>
 * Perspective transformation works better with images taken from different angles.
+<br>
+
+### Perspective transformation Method
+  
+![chess-perspective_transform](https://github.com/user-attachments/assets/25b7af18-932e-4dc4-a8ad-82499cfb945c)
+
+<br>
+
+### Square Filling Method
+  
+![chess-diagram-square](https://github.com/user-attachments/assets/f62b1cf0-6724-4254-b40d-259fe7ee4c58)
 
 <br><br>
 
