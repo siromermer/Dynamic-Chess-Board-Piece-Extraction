@@ -22,6 +22,22 @@ For more project, you can check my personal blog website: https://visionbrick.co
 Most used Libraries: OpenCV, Numpy, Pandas, chess, matplotlib, Depthai , Ultralytics
 
 <br>
+
+## Installation
+
+### CPU Version (Recommended for most users)
+```bash
+pip install -r requirements.txt
+```
+
+### GPU Version (For CUDA-compatible systems)
+```bash
+pip install -r requirements-gpu.txt
+```
+
+**Note:** The GPU version requires NVIDIA CUDA toolkit to be installed on your system. If you're unsure, start with the CPU version.
+
+<br>
 <br>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/109289d6-49d7-48d5-87eb-9c62ffa7aed9" alt="Image 5" height="350" style="display: inline-block; ">
