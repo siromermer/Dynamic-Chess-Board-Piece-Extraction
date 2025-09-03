@@ -3,11 +3,6 @@
 
 ## Dynamic Chess Board-Pieces Extraction
 
-
-
-* Extracting of Chess Board and Pieces to Classic Chess Format ( FEN format ) 
-* With small adjustments, different chessboards and different pieces can be used.
-
 <br><br>
 There are two versions of this project: <br>
 1) Extract the chessboard and pieces from an image (.jpeg, .png, etc.). <br>
