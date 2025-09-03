@@ -1,0 +1,22 @@
+# Python & env
+.venv
+env
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+
+# Git, editor, build
+.git
+.gitignore
+.vscode
+.idea
+dist
+build
+*.egg-info
+
+# data / outputs (don't bake large data into the image)
+extracted-data
+datasets
+*.sqlite3
