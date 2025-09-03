@@ -64,6 +64,30 @@ pip install -r requirements-gpu.txt
 
 <br>
 
+## Docker Setup
+
+### Running with Docker
+For a containerized environment, you can use Docker to run the project without installing dependencies directly on your system.
+
+**Note:** The Docker setup currently uses the CPU version (requirements.txt) only. GPU support is not included in the Docker configuration.
+
+#### Build the Docker Image
+```bash
+docker build -t dynamic-chess-board-demo:latest .
+```
+
+#### Run with Jupyter Lab
+```bash
+docker run --rm -it -p 8888:8888 -v ${PWD}:/app -w /app dynamic-chess-board-demo:latest jupyter lab --ip=0.0.0.0 --no-browser --allow-root
+```
+
+#### Run Interactive Container
+```bash
+docker run --rm -it -v ${PWD}:/app -w /app dynamic-chess-board-demo:latest
+```
+
+<br>
+
 ### Files 
 * square_filling.py: Script for conversion using the square-filling algorithm.
 * square_filling-step-by-step.ipynb: Jupyter notebook for visualizing the entire process step by step.
