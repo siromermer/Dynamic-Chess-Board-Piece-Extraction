@@ -3,7 +3,8 @@
 
 ## Dynamic Chess Board-Pieces Extraction
 
-<br><br>
+<br>
+
 There are two versions of this project: <br>
 1) Extract the chessboard and pieces from an image (.jpeg, .png, etc.). <br>
 2) Extract the chessboard and pieces using an OAK-D Lite Camera (utilizing DepthAI for real-time video and inference).
@@ -13,8 +14,20 @@ There are two versions of this project: <br>
 For more project, you can check my personal blog website: https://visionbrick.com/
 
 <br>
-
-Most used Libraries: OpenCV, Numpy, Pandas, chess, matplotlib, Depthai , Ultralytics
+<p align="center">
+<img src="https://github.com/user-attachments/assets/109289d6-49d7-48d5-87eb-9c62ffa7aed9" alt="Image 5" height="350" style="display: inline-block; ">
+</p>
+<p align="center">
+  Version 1: Conversion from image
+</p>
+ 
+<br><br>
+<p align="center">
+<img src="https://github.com/siromermer/Dynamic-Chess-Board-Piece-Extraction/assets/113242649/200cffa0-fa19-49fa-892b-dca6b4914e89" alt="Image 5" width="350" style="display: inline-block; ">
+</p>
+<p align="center">
+  Version 2: real-time conversion with OAK D Lite camera (depthai)
+</p>
 
 <br>
 
@@ -33,24 +46,6 @@ pip install -r requirements-gpu.txt
 **Note:** The GPU version requires NVIDIA CUDA toolkit to be installed on your system. If you're unsure, start with the CPU version.
 
 <br>
-<br>
-<p align="center">
-<img src="https://github.com/user-attachments/assets/109289d6-49d7-48d5-87eb-9c62ffa7aed9" alt="Image 5" height="350" style="display: inline-block; ">
-</p>
-<p align="center">
-  Version 1: Conversion from image
-</p>
- 
-<br><br>
-<p align="center">
-<img src="https://github.com/siromermer/Dynamic-Chess-Board-Piece-Extraction/assets/113242649/200cffa0-fa19-49fa-892b-dca6b4914e89" alt="Image 5" width="350" style="display: inline-block; ">
-</p>
-<p align="center">
-  Version 2: real-time conversion with OAK D Lite camera (depthai)
-</p>
-
-
-<br><br>
 
 There are two files for converting images to FEN format: the first uses a square-filling algorithm, and the second uses perspective transformation. <br>
 * The square-filling algorithm works better with non-angled (straight) images. <br>
