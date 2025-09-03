@@ -1,28 +1,28 @@
 # Core Computer Vision and Image Processing
-opencv-python==4.9.0
-numpy==1.26.4
+opencv-python
+numpy==1.26.
 
-# YOLO and Object Detection (GPU/CUDA Version)
-ultralytics==8.3.9
-torch==2.2.0+cu121
-torchvision==0.17.0+cu121
+# YOLO 
+ultralytics
 
 # Data Processing and Analysis
-pandas==2.2.0
-matplotlib==3.8.2
+pandas
+matplotlib
 
 # Chess Board and Game Logic
-chess==1.10.0
+chess
 
 # Image Processing and File Handling
-Pillow==10.3.0
+Pillow
 
 # SVG and Graphics Processing
-svglib==1.5.1
-reportlab==3.6.13
-
-# DepthAI for OAK-D Camera Support
-depthai==1.14.0
+svglib
+reportlab
 
 # Additional Utilities
-tqdm==4.65.2
+tqdm
+rlPyCairo
+
+# YOLO and Object Detection (GPU/CUDA Version)
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+
