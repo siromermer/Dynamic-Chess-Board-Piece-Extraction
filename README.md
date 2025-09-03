@@ -43,7 +43,6 @@ pip install -r requirements-gpu.txt
 
 **Note:** The GPU version requires NVIDIA CUDA toolkit to be installed on your system. If you're unsure, start with the CPU version.
 
-
 <br>
 
 There are two files for converting images to FEN format: the first uses a square-filling algorithm, and the second uses perspective transformation. <br>
