@@ -55,11 +55,14 @@ pip install -r requirements.txt
 ```
 
 ### GPU Version (For CUDA-compatible systems)
+There is an additional step for installing PyTorch with GPU support. Please check the end of the requirements-gpu.txt file.
 ```bash
 pip install -r requirements-gpu.txt
 ```
 
 **Note:** The GPU version requires NVIDIA CUDA toolkit to be installed on your system. If you're unsure, start with the CPU version.
+
+<br>
 
 ### Files 
 * square_filling.py: Script for conversion using the square-filling algorithm.
