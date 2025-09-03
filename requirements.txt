@@ -1,25 +1,26 @@
 # Core Computer Vision and Image Processing
-opencv-python==4.9.0
+opencv-python
 numpy==1.26.4
 
 # YOLO and Object Detection
 ultralytics==8.3.9
 torch==2.2.0
-torchvision==0.17.0
+torchvision
 
 # Data Processing and Analysis
-pandas==2.2.0
-matplotlib==3.8.2
+pandas
+matplotlib
 
 # Chess Board and Game Logic
-chess==1.10.0
+chess
+rlPyCairo
 
 # Image Processing and File Handling
-Pillow==10.3.0
+Pillow
 
 # SVG and Graphics Processing
-svglib==1.5.1
-reportlab==3.6.13
+svglib
+reportlab
 
 # Additional Utilities
-tqdm==4.65.2
+tqdm
