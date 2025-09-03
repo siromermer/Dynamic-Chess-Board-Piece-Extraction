@@ -1,43 +1,18 @@
- 
+# Dynamic Chess Board-Pieces Extraction
 
+**Computer vision system that automatically extracts chess board positions and piece placements from images or real-time video, converting them into standard FEN (Forsyth-Edwards Notation) format.** This project uses YOLO object detection and  image processing techniques to recognize chess pieces and their positions on the board.
 
-## Dynamic Chess Board-Pieces Extraction
+## Project Versions
 
+There are two versions of this project:
 
-
-* Extracting of Chess Board and Pieces to Classic Chess Format ( FEN format ) 
-* With small adjustments, different chessboards and different pieces can be used.
-
-<br><br>
-There are two versions of this project: <br>
-1) Extract the chessboard and pieces from an image (.jpeg, .png, etc.). <br>
+1) Extract the chessboard and pieces from an image (.jpeg, .png, etc.).
 2) Extract the chessboard and pieces using an OAK-D Lite Camera (utilizing DepthAI for real-time video and inference).
 
 <br>
 
 For more project, you can check my personal blog website: https://visionbrick.com/
 
-<br>
-
-Most used Libraries: OpenCV, Numpy, Pandas, chess, matplotlib, Depthai , Ultralytics
-
-<br>
-
-## Installation
-
-### CPU Version (Recommended for most users)
-```bash
-pip install -r requirements.txt
-```
-
-### GPU Version (For CUDA-compatible systems)
-```bash
-pip install -r requirements-gpu.txt
-```
-
-**Note:** The GPU version requires NVIDIA CUDA toolkit to be installed on your system. If you're unsure, start with the CPU version.
-
-<br>
 <br>
 <p align="center">
 <img src="https://github.com/user-attachments/assets/109289d6-49d7-48d5-87eb-9c62ffa7aed9" alt="Image 5" height="350" style="display: inline-block; ">
@@ -54,8 +29,22 @@ pip install -r requirements-gpu.txt
   Version 2: real-time conversion with OAK D Lite camera (depthai)
 </p>
 
+## Installation
 
-<br><br>
+### CPU Version (Recommended for most users)
+```bash
+pip install -r requirements.txt
+```
+
+### GPU Version (For CUDA-compatible systems)
+```bash
+pip install -r requirements-gpu.txt
+```
+
+**Note:** The GPU version requires NVIDIA CUDA toolkit to be installed on your system. If you're unsure, start with the CPU version.
+
+
+<br>
 
 There are two files for converting images to FEN format: the first uses a square-filling algorithm, and the second uses perspective transformation. <br>
 * The square-filling algorithm works better with non-angled (straight) images. <br>
