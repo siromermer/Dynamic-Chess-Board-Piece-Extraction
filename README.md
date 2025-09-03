@@ -28,21 +28,6 @@ For more project, you can check my personal blog website: https://visionbrick.co
 <p align="center">
   Version 2: real-time conversion with OAK D Lite camera (depthai)
 </p>
-
-## Installation
-
-### CPU Version (Recommended for most users)
-```bash
-pip install -r requirements.txt
-```
-
-### GPU Version (For CUDA-compatible systems)
-```bash
-pip install -r requirements-gpu.txt
-```
-
-**Note:** The GPU version requires NVIDIA CUDA toolkit to be installed on your system. If you're unsure, start with the CPU version.
-
 <br>
 
 There are two files for converting images to FEN format: the first uses a square-filling algorithm, and the second uses perspective transformation. <br>
@@ -61,6 +46,20 @@ There are two files for converting images to FEN format: the first uses a square
 ![chess-diagram-square](https://github.com/user-attachments/assets/f62b1cf0-6724-4254-b40d-259fe7ee4c58)
 
 <br><br>
+
+## Installation
+
+### CPU Version (Recommended for most users)
+```bash
+pip install -r requirements.txt
+```
+
+### GPU Version (For CUDA-compatible systems)
+```bash
+pip install -r requirements-gpu.txt
+```
+
+**Note:** The GPU version requires NVIDIA CUDA toolkit to be installed on your system. If you're unsure, start with the CPU version.
 
 ### Files 
 * square_filling.py: Script for conversion using the square-filling algorithm.
