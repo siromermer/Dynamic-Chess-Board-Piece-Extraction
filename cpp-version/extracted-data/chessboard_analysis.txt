@@ -1,0 +1,8 @@
+empty empty empty empty black-pawn empty empty empty 
+empty black-pawn empty empty empty empty white-rook empty 
+empty empty white-king black-rook empty empty black-pawn white-knight 
+empty white-pawn empty empty empty white-bishop empty empty 
+black-king empty white-pawn white-rook white-queen white-pawn empty black-rook 
+empty black-pawn empty empty empty empty empty empty 
+empty empty empty black-queen empty white-pawn empty empty 
+empty empty empty empty empty empty empty empty 

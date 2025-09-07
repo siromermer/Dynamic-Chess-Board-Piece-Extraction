@@ -1,0 +1,10 @@
+^C:\USERS\SIROM\DESKTOP\REPOS\DYNAMIC-CHESS-BOARD-PIECE-EXTRACTION\CPP-VERSION\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/sirom/Desktop/repos/Dynamic-Chess-Board-Piece-Extraction/cpp-version -BC:/Users/sirom/Desktop/repos/Dynamic-Chess-Board-Piece-Extraction/cpp-version/build --check-stamp-file C:/Users/sirom/Desktop/repos/Dynamic-Chess-Board-Piece-Extraction/cpp-version/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

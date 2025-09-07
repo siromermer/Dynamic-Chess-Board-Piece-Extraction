@@ -1,0 +1,3 @@
+C:/Users/sirom/Desktop/repos/Dynamic-Chess-Board-Piece-Extraction/cpp-version/build/CMakeFiles/main.dir
+C:/Users/sirom/Desktop/repos/Dynamic-Chess-Board-Piece-Extraction/cpp-version/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/sirom/Desktop/repos/Dynamic-Chess-Board-Piece-Extraction/cpp-version/build/CMakeFiles/ZERO_CHECK.dir

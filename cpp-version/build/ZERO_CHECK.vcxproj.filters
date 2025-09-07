@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\build\CMakeFiles\e6592e23456de1ced351c5bad8b84ba1\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B5C5F7A9-DB4A-3A1D-93FB-AE60A23F6947}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

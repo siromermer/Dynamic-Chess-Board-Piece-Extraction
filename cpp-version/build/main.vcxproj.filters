@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\chessboard_analyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\display_squares_from_csv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\fen_board_generator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\find_biggest_contour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\find_contours.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\find_valid_squares.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\image_processing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\inverse_transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\perspective_transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\src\save_squares_to_csv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\sirom\Desktop\repos\Dynamic-Chess-Board-Piece-Extraction\cpp-version\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FBFAE58D-2F5E-3709-8F37-535798DCB53E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
