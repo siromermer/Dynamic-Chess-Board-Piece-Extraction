@@ -14,7 +14,7 @@ There are two versions of this project:
 
 <br>
 
-For more project, you can check my personal blog website: https://visionbrick.com/
+I had a blog post about this project on my personal website. You can read it here: https://visionbrick.com/how-to-extract-chess-positions-from-any-photo/
 
 <br>
 <p align="center">
