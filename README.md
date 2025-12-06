@@ -10,9 +10,7 @@ There are two versions of this project:
 2) Extract the chessboard and pieces using an OAK-D Lite Camera (utilizing DepthAI for real-time video and inference).
 
 
-### C++ version is also available : [cpp-version/](cpp-version/)
-
-<br>
+C++ version is also available : [cpp-version/](cpp-version/)
 
 I had a blog post about this project on my personal website. You can read it here: https://visionbrick.com/how-to-extract-chess-positions-from-any-photo/
 
