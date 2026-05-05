@@ -2,6 +2,14 @@
 
 **Computer vision system that automatically extracts chess board positions and piece placements from images or real-time video, converting them into standard FEN (Forsyth-Edwards Notation) format.** This project uses YOLO and RF-DETR object detection with image processing techniques to recognize chess pieces and their positions on the board.
 
+## Mobile App
+
+|  |  |
+| --- | --- |
+| **Chesspector is available on Google Play.**<br><br>Scan physical boards, analyze positions with Stockfish, and practice from digitized games.<br><br>This project started with local image analysis, then evolved into a published mobile app that runs the same core pipeline using Flutter, OpenCV, RF-DETR, and AWS-hosted services.<br><br>[Chesspector on Google Play](https://play.google.com/store/apps/details?id=com.siromer.chesspector) | **Available now on Google Play**<br><br>[Open Chesspector](https://play.google.com/store/apps/details?id=com.siromer.chesspector) |
+
+<br>
+
 ## Project Versions
 
 There are two versions of this project:
