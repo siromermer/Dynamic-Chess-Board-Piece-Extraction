@@ -1,6 +1,6 @@
 # Dynamic Chess Board-Pieces Extraction
 
-**Computer vision system that automatically extracts chess board positions and piece placements from images or real-time video, converting them into standard FEN (Forsyth-Edwards Notation) format.** This project uses YOLO object detection and  image processing techniques to recognize chess pieces and their positions on the board.
+**Computer vision system that automatically extracts chess board positions and piece placements from images or real-time video, converting them into standard FEN (Forsyth-Edwards Notation) format.** This project uses YOLO and RF-DETR object detection with image processing techniques to recognize chess pieces and their positions on the board.
 
 ## Project Versions
 
@@ -58,7 +58,15 @@ pip install -r requirements.txt
 ### GPU Version (For CUDA-compatible systems)
 There is an additional step for installing PyTorch with GPU support. Please check the end of the requirements-gpu.txt file.
 ```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
 pip install -r requirements-gpu.txt
+```
+
+### RF-DETR Version
+Use this environment when you want RF-DETR support. Inside the code, you need to change YOLO to RF-DETR for inference. 
+```bash
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+pip install -r requirements-rfdetr.txt
 ```
 
 **Note:** The GPU version requires NVIDIA CUDA toolkit to be installed on your system. If you're unsure, start with the CPU version.
@@ -96,6 +104,8 @@ docker run --rm -it -v ${PWD}:/app -w /app dynamic-chess-board-demo:latest
 * perspective_transformation.py: Script for conversion using perspective transformation.
 * perspective_transformation-step-by-step.ipynb: Jupyter notebook for visualizing the entire process step by step.  
 * chess-model-yolov8m.pt --> Trained YOLOv8 model for chess piece detection.
+* chess-model-rfdetr.pth --> Trained RF-DETR model for chess piece detection.
+* rfdetr-inference-demo.ipynb --> Notebook for RF-DETR inference and matplotlib detection visualization on one test image.
   <br>
 
 ### Folders

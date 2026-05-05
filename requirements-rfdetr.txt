@@ -1,0 +1,5 @@
+# Install PyTorch with CUDA support first (example: CUDA 12.1):
+# pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+#
+# Then install RF-DETR dependencies from this file.
+rfdetr
