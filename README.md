@@ -6,7 +6,7 @@
 
 |  |  |
 | --- | --- |
-| **Chesspector is available on Google Play.**<br><br>Scan physical boards, analyze positions with Stockfish, and practice from digitized games.<br><br>This project started with local image analysis, then evolved into a published mobile app that runs the same core pipeline using Flutter, OpenCV, RF-DETR, and AWS-hosted services.<br><br>[Chesspector on Google Play](https://play.google.com/store/apps/details?id=com.siromer.chesspector) | **Available now on Google Play**<br><br>[Open Chesspector](https://play.google.com/store/apps/details?id=com.siromer.chesspector) |
+| **Chesspector is available on Google Play.**<br><br>Scan physical boards, analyze positions with Stockfish, and practice from digitized games.<br><br>This project started with local image analysis, then evolved into a published mobile app that runs the same core pipeline using Flutter, OpenCV, RF-DETR, and AWS-hosted services.<br><br>[Chesspector on Google Play](https://play.google.com/store/apps/details?id=com.siromer.chesspector) | [![Chesspector on Google Play](./playstore_image_chesspector.png)](https://play.google.com/store/apps/details?id=com.siromer.chesspector) |
 
 <br>
 
